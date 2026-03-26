@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/tests.dir/tests_autogen/mocs_compilation.cpp.o CMakeFiles/tests.dir/tests/test_command_manager.cpp.o CMakeFiles/tests.dir/history/CommandManager.cpp.o -o tests  -lgtest -lgtest_main -lpthread 

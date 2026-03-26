@@ -1,9 +1,0 @@
-/home/anya/Desktop/cadproj/build/CMakeFiles/mini_cad.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/tests.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/test.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/edit_cache.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/rebuild_cache.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/mini_cad_autogen_timestamp_deps.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/mini_cad_autogen.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/tests_autogen_timestamp_deps.dir
-/home/anya/Desktop/cadproj/build/CMakeFiles/tests_autogen.dir
