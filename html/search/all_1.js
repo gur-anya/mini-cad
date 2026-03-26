@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['1_2092_0',['Rendering: Adding support for &lt;tt&gt;ImGuiBackendFlags_RendererHasTextures&lt;/tt&gt; (1.92+)',['../md_imgui_2docs_2BACKENDS.html#autotoc_md20',1,'']]],
+  ['1_2092_20june_202025_1',['New! Dynamic Fonts system in 1.92 (June 2025)',['../md_imgui_2docs_2FONTS.html#autotoc_md135',1,'']]],
+  ['1_20invalid_20filename_20due_20to_20use_20of_20tt_20tt_20or_20unexpected_20working_20directory_2',['(1) Invalid filename due to use of &lt;tt&gt;\&lt;/tt&gt; or unexpected working directory.',['../md_imgui_2docs_2FONTS.html#autotoc_md129',1,'']]],
+  ['1_20tt_20deprecated_20flag_20even_20with_20ems_204_200_2010_3',['1 tt deprecated flag even with ems 4 0 10',['../md_imgui_2examples_2example__glfw__wgpu_2README.html#autotoc_md218',1,'Generate Emscripten forcing &lt;tt&gt;-sUSE_WEBGPU=1&lt;/tt&gt; deprecated flag even with EMS &gt;= 4.0.10'],['../md_imgui_2examples_2example__sdl2__wgpu_2README.html#autotoc_md251',1,'Generate Emscripten forcing &lt;tt&gt;-sUSE_WEBGPU=1&lt;/tt&gt; deprecated flag even with EMS &gt;= 4.0.10'],['../md_imgui_2examples_2example__sdl3__wgpu_2README.html#autotoc_md282',1,'Generate Emscripten forcing &lt;tt&gt;-sUSE_WEBGPU=1&lt;/tt&gt; deprecated flag even with EMS &gt;= 4.0.10']]],
+  ['10_4',['10',['../md_imgui_2examples_2example__glfw__wgpu_2README.html#autotoc_md218',1,'Generate Emscripten forcing &lt;tt&gt;-sUSE_WEBGPU=1&lt;/tt&gt; deprecated flag even with EMS &gt;= 4.0.10'],['../md_imgui_2examples_2example__sdl2__wgpu_2README.html#autotoc_md251',1,'Generate Emscripten forcing &lt;tt&gt;-sUSE_WEBGPU=1&lt;/tt&gt; deprecated flag even with EMS &gt;= 4.0.10'],['../md_imgui_2examples_2example__sdl3__wgpu_2README.html#autotoc_md282',1,'Generate Emscripten forcing &lt;tt&gt;-sUSE_WEBGPU=1&lt;/tt&gt; deprecated flag even with EMS &gt;= 4.0.10']]],
+  ['14_2004_20and_20macos_5',['On Ubuntu 14.04+ and macOS',['../md_imgui_2examples_2example__allegro5_2README.html#autotoc_md202',1,'']]]
+];

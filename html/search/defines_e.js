@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['unix_0',['unix',['../tests__autogen_2moc__predefs_8h.html#a4e65214f450ef6326b96b52e6dd5714b',1,'unix:&#160;moc_predefs.h'],['../mini__cad__autogen_2moc__predefs_8h.html#a4e65214f450ef6326b96b52e6dd5714b',1,'unix:&#160;moc_predefs.h']]],
+  ['usynergy_5ffalse_1',['USYNERGY_FALSE',['../uSynergy_8h.html#a769f91e298d8c0c9bdf549846cfa08b7',1,'uSynergy.h']]],
+  ['usynergy_5fidle_5ftimeout_2',['USYNERGY_IDLE_TIMEOUT',['../uSynergy_8h.html#ac1a9d3320f55b0a4c2463c3eb83ef918',1,'uSynergy.h']]],
+  ['usynergy_5fis_5fpacket_3',['USYNERGY_IS_PACKET',['../uSynergy_8c.html#a6c051225d31a7540609f5cbdb4a81b8c',1,'uSynergy.c']]],
+  ['usynergy_5flittle_5fendian_4',['USYNERGY_LITTLE_ENDIAN',['../uSynergy_8h.html#afc2e10e098c39101f29b2e5bc7d58d8a',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5falt_5',['USYNERGY_MODIFIER_ALT',['../uSynergy_8h.html#af85416992e1fcb45fcc939101bd99a6b',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5falt_5fgr_6',['USYNERGY_MODIFIER_ALT_GR',['../uSynergy_8h.html#a3c45764ada926f422083aee31511aeab',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fcapslock_7',['USYNERGY_MODIFIER_CAPSLOCK',['../uSynergy_8h.html#a0bdea03b09786e5ab2d16a888ab6affb',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fctrl_8',['USYNERGY_MODIFIER_CTRL',['../uSynergy_8h.html#a607fa21b220a636d8b073d3bb52fd840',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5flevel5lock_9',['USYNERGY_MODIFIER_LEVEL5LOCK',['../uSynergy_8h.html#ad6a4c43937498a1e60115c29b88c7a91',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fmeta_10',['USYNERGY_MODIFIER_META',['../uSynergy_8h.html#a247779f400976db585b268ab9c46df04',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fnumlock_11',['USYNERGY_MODIFIER_NUMLOCK',['../uSynergy_8h.html#a9b2673ef007bfb0be230ce19b595d0bf',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fscrollock_12',['USYNERGY_MODIFIER_SCROLLOCK',['../uSynergy_8h.html#acb0984295259d8b0b3041309a9c76c94',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fshift_13',['USYNERGY_MODIFIER_SHIFT',['../uSynergy_8h.html#a72c3676527e7ead7e4920431c080dbd8',1,'uSynergy.h']]],
+  ['usynergy_5fmodifier_5fwin_14',['USYNERGY_MODIFIER_WIN',['../uSynergy_8h.html#a651f7bba19994bfc0f0a9cd1ac0de802',1,'uSynergy.h']]],
+  ['usynergy_5fnum_5fjoysticks_15',['USYNERGY_NUM_JOYSTICKS',['../uSynergy_8h.html#aea763582d071e5497c93df614ac5f570',1,'uSynergy.h']]],
+  ['usynergy_5fprotocol_5fmajor_16',['USYNERGY_PROTOCOL_MAJOR',['../uSynergy_8h.html#ae6a8ecd832d2fe8e85d0de33d64df252',1,'uSynergy.h']]],
+  ['usynergy_5fprotocol_5fminor_17',['USYNERGY_PROTOCOL_MINOR',['../uSynergy_8h.html#aeb6e3da49ad23095084ea6acb7dfb90f',1,'uSynergy.h']]],
+  ['usynergy_5freceive_5fbuffer_5fsize_18',['USYNERGY_RECEIVE_BUFFER_SIZE',['../uSynergy_8h.html#a469ef62f67c95ce3136dbbc3cdec812e',1,'uSynergy.h']]],
+  ['usynergy_5freply_5fbuffer_5fsize_19',['USYNERGY_REPLY_BUFFER_SIZE',['../uSynergy_8h.html#a8011521bd2a574c152dfacca4efb2437',1,'uSynergy.h']]],
+  ['usynergy_5ftrace_5fbuffer_5fsize_20',['USYNERGY_TRACE_BUFFER_SIZE',['../uSynergy_8h.html#ae6d2583aedf1a4427454e1cbeffa8744',1,'uSynergy.h']]],
+  ['usynergy_5ftrue_21',['USYNERGY_TRUE',['../uSynergy_8h.html#a911fb099dc0cd08adeea98de0304c637',1,'uSynergy.h']]]
+];

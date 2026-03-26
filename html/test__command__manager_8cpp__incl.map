@@ -1,0 +1,16 @@
+<map id="tests/test_command_manager.cpp" name="tests/test_command_manager.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="165,5,320,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,109,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,48,98,90,96,85,197,43"/>
+<area shape="rect" id="Node000003" href="$CommandManager_8h.html" title=" " alt="" coords="133,93,352,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,46,245,79,240,79,240,46"/>
+<area shape="rect" id="Node000007" href="$Command_8h.html" title=" " alt="" coords="376,93,565,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="298,43,425,86,423,91,296,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="169,167,226,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,120,214,157,210,154,233,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="251,167,328,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="253,118,276,154,272,157,248,120"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="373,167,432,192"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="269,116,365,159,363,163,267,121"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="461,121,425,158,421,155,458,117"/>
+</map>

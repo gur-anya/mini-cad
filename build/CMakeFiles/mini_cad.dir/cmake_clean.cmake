@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mini_cad_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/mini_cad_autogen.dir/ParseCache.txt"
+  "mini_cad_autogen"
+  "CMakeFiles/mini_cad.dir/commands/CreateBoxCommand.cpp.o"
+  "CMakeFiles/mini_cad.dir/commands/CreateBoxCommand.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/commands/CreateCylinderCommand.cpp.o"
+  "CMakeFiles/mini_cad.dir/commands/CreateCylinderCommand.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/commands/CreateSphereCommand.cpp.o"
+  "CMakeFiles/mini_cad.dir/commands/CreateSphereCommand.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/history/CommandManager.cpp.o"
+  "CMakeFiles/mini_cad.dir/history/CommandManager.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/imgui/backends/imgui_impl_glfw.cpp.o"
+  "CMakeFiles/mini_cad.dir/imgui/backends/imgui_impl_glfw.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
+  "CMakeFiles/mini_cad.dir/imgui/backends/imgui_impl_opengl3.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/imgui/imgui.cpp.o"
+  "CMakeFiles/mini_cad.dir/imgui/imgui.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/imgui/imgui_draw.cpp.o"
+  "CMakeFiles/mini_cad.dir/imgui/imgui_draw.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/imgui/imgui_tables.cpp.o"
+  "CMakeFiles/mini_cad.dir/imgui/imgui_tables.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/imgui/imgui_widgets.cpp.o"
+  "CMakeFiles/mini_cad.dir/imgui/imgui_widgets.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/main.cpp.o"
+  "CMakeFiles/mini_cad.dir/main.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/mainwindow.cpp.o"
+  "CMakeFiles/mini_cad.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/mini_cad_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/mini_cad.dir/mini_cad_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/mini_cad.dir/occtviewer.cpp.o"
+  "CMakeFiles/mini_cad.dir/occtviewer.cpp.o.d"
+  "mini_cad"
+  "mini_cad.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mini_cad.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

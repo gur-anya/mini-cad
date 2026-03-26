@@ -1,0 +1,15 @@
+<map id="ImGui_ImplVulkan_Data" name="ImGui_ImplVulkan_Data">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1217,67,1396,93"/>
+<area shape="rect" id="Node000002" href="$structImGui__ImplVulkan__InitInfo.html" title=" " alt="" coords="759,7,953,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="966,22,1077,31,1194,47,1266,65,1265,70,1193,52,1076,36,966,27"/>
+<area shape="rect" id="Node000003" href="$structImGui__ImplVulkan__PipelineInfo.html" title=" " alt="" coords="324,7,548,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="562,17,759,17,759,23,562,23"/>
+<area shape="rect" id="Node000004" href="$structImVector.html" title=" " alt="" coords="769,67,943,93"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="957,77,1217,77,1217,83,957,83"/>
+<area shape="rect" id="Node000005" href="$structImGui__ImplVulkan__WindowRenderBuffers.html" title=" " alt="" coords="733,117,979,157"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="992,122,1193,97,1238,90,1239,95,1194,103,993,127"/>
+<area shape="rect" id="Node000006" href="$structImVector.html" title=" " alt="" coords="329,117,543,157"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="557,135,733,135,733,140,557,140"/>
+<area shape="rect" id="Node000007" href="$structImGui__ImplVulkan__FrameRenderBuffers.html" title=" " alt="" coords="5,117,240,157"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="254,135,329,135,329,140,254,140"/>
+</map>

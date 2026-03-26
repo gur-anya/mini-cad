@@ -1,0 +1,40 @@
+<map id="mainwindow.cpp" name="mainwindow.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1261,5,1391,31"/>
+<area shape="rect" id="Node000002" href="$mainwindow_8h.html" title=" " alt="" coords="197,86,313,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1261,25,905,46,426,81,328,91,327,86,426,76,904,41,1260,20"/>
+<area shape="rect" id="Node000005" href="$occtviewer_8h.html" title=" " alt="" coords="590,86,694,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1261,24,1016,41,862,57,708,81,691,85,690,80,707,76,862,52,1016,35,1260,19"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="389,167,468,192"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="1260,23,1105,27,907,37,716,54,637,66,579,81,542,97,508,118,453,160,450,155,505,114,540,93,577,76,636,61,715,49,907,32,1104,22,1260,18"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="719,86,976,111"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1261,33,931,86,930,81,1260,27"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1000,79,1199,119"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1294,33,1168,77,1166,72,1292,28"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1223,79,1429,119"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1329,31,1329,65,1323,65,1323,31"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1454,86,1561,111"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1353,28,1469,78,1467,83,1351,33"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1585,86,1696,111"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1376,28,1573,76,1588,80,1587,85,1572,81,1375,33"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1721,86,1822,111"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="1392,24,1538,44,1709,76,1723,80,1722,85,1708,81,1537,50,1391,29"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="1847,86,1931,111"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="1392,20,1591,37,1713,53,1835,76,1847,79,1845,84,1833,81,1712,58,1591,42,1391,25"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1955,86,2022,111"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="1392,17,1498,20,1637,29,1791,46,1944,76,1953,79,1951,84,1943,81,1790,52,1636,34,1498,25,1391,22"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,121,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,114,105,164,103,159,226,109"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="146,167,365,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="258,112,258,153,253,153,253,112"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="612,114,473,165,471,160,610,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="492,167,611,192"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="630,114,577,160,573,156,627,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="635,167,833,192"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="657,109,712,156,708,160,654,114"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="857,167,984,192"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="682,109,708,116,867,160,865,165,707,121,681,114"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1008,167,1121,192"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="680,109,708,116,849,142,995,164,994,169,848,148,707,121,678,114"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1146,167,1298,192"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="678,109,708,116,825,136,917,145,1012,152,1133,164,1132,169,1011,157,917,150,824,141,707,121,677,114"/>
+</map>
