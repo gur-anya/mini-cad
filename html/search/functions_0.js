@@ -1,21 +1,6 @@
 var searchData=
 [
-  ['_5f_5finit_5f_5f_0',['__init__',['../classimgui__lldb_1_1ImRectSummary.html#a64e5dece99dd465e9a6e8ec121f1591f',1,'imgui_lldb.ImRectSummary.__init__()'],['../classimgui__lldb_1_1ImGuiWindowSummary.html#a2569eaf12886d6d84cb3c8901c56e6b6',1,'imgui_lldb.ImGuiWindowSummary.__init__()'],['../classimgui__lldb_1_1ArraySynthBase.html#a88aad947f4839a4099ce311e84730cdf',1,'imgui_lldb.ArraySynthBase.__init__()']]],
-  ['_5fcalccircleautosegmentcount_1',['_CalcCircleAutoSegmentCount',['../structImDrawList.html#a52afa32aaab6d581cda90dc5d8726ed6',1,'ImDrawList']]],
-  ['_5fclearfreememory_2',['_ClearFreeMemory',['../structImDrawList.html#a61a886a16655c810e04c0ccebb228f9a',1,'ImDrawList']]],
-  ['_5fgrow_5fcapacity_3',['_grow_capacity',['../structImVector.html#a3a097635d464b1b70dc7d59996a88b28',1,'ImVector']]],
-  ['_5fonchangedcliprect_4',['_OnChangedClipRect',['../structImDrawList.html#a8e51ddbe1f9732bc271ce807bec23f54',1,'ImDrawList']]],
-  ['_5fonchangedtexture_5',['_OnChangedTexture',['../structImDrawList.html#aceba6d030d32c39618d4af49dead068f',1,'ImDrawList']]],
-  ['_5fonchangedvtxoffset_6',['_OnChangedVtxOffset',['../structImDrawList.html#a7f2e315f147acd8b555d86d1557659cc',1,'ImDrawList']]],
-  ['_5fpatharctofastex_7',['_PathArcToFastEx',['../structImDrawList.html#ac25f3a7693ed13ba2dac455675be8654',1,'ImDrawList']]],
-  ['_5fpatharcton_8',['_PathArcToN',['../structImDrawList.html#a855fcd28cd12b81975e8a61ea2e80e96',1,'ImDrawList']]],
-  ['_5fpopunuseddrawcmd_9',['_PopUnusedDrawCmd',['../structImDrawList.html#a2cb0295fcd3062bfedbebbad55865455',1,'ImDrawList']]],
-  ['_5fresetfornewframe_10',['_ResetForNewFrame',['../structImDrawList.html#a5f78fe195b2507e5926560f591141ff3',1,'ImDrawList']]],
-  ['_5fsetdrawlistshareddata_11',['_SetDrawListSharedData',['../structImDrawList.html#a65bf854d19ac43e60ad5c9b567a51962',1,'ImDrawList']]],
-  ['_5fsettexture_12',['_SetTexture',['../structImDrawList.html#a0eb5ff5835be140335cdb15c37408e97',1,'ImDrawList']]],
-  ['_5ftrymergedrawcmds_13',['_TryMergeDrawCmds',['../structImDrawList.html#abdba85bbdc26a98eac56ed04683d5fc7',1,'ImDrawList']]],
-  ['_5fwindowresizeeastwestcursor_14',['_windowResizeEastWestCursor',['../categoryNSCursor_07_08.html#a508a3aef1a71985a79cc46afc93491c5',1,'NSCursor()']]],
-  ['_5fwindowresizenortheastsouthwestcursor_15',['_windowResizeNorthEastSouthWestCursor',['../categoryNSCursor_07_08.html#af74b25dc4fcf9def5c19e2dce9ec6b7f',1,'NSCursor()']]],
-  ['_5fwindowresizenorthsouthcursor_16',['_windowResizeNorthSouthCursor',['../categoryNSCursor_07_08.html#a55a0350ab865c1bbbfedaf43c83d9cfa',1,'NSCursor()']]],
-  ['_5fwindowresizenorthwestsoutheastcursor_17',['_windowResizeNorthWestSouthEastCursor',['../categoryNSCursor_07_08.html#ad1433d26ff4f7e265718238f1cf50275',1,'NSCursor()']]]
+  ['createboxcommand_0',['CreateBoxCommand',['../classCreateBoxCommand.html#ae92163277a632971de40c77dab36be17',1,'CreateBoxCommand']]],
+  ['createcylindercommand_1',['CreateCylinderCommand',['../classCreateCylinderCommand.html#a08838f243f7f4e4fe962f9511b91b38c',1,'CreateCylinderCommand']]],
+  ['createspherecommand_2',['CreateSphereCommand',['../classCreateSphereCommand.html#ad79380905d804ef82bc888596405462b',1,'CreateSphereCommand']]]
 ];

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['glfwclientapi_5fopengl_0',['GlfwClientApi_OpenGL',['../imgui__impl__glfw_8cpp.html#abfd5392e93ee3c4e7f86cc5515e2d413a4bdb1206a80d2fecbccc1ba13a194189',1,'imgui_impl_glfw.cpp']]],
-  ['glfwclientapi_5funknown_1',['GlfwClientApi_Unknown',['../imgui__impl__glfw_8cpp.html#abfd5392e93ee3c4e7f86cc5515e2d413a64b18e86183bf2f895418038ae86fd97',1,'imgui_impl_glfw.cpp']]],
-  ['glfwclientapi_5fvulkan_2',['GlfwClientApi_Vulkan',['../imgui__impl__glfw_8cpp.html#abfd5392e93ee3c4e7f86cc5515e2d413aea35a390f6542022f5704637f7cbefb5',1,'imgui_impl_glfw.cpp']]]
+  ['need_5fmore_5fthan_5fnothing_0',['need_more_than_nothing',['../Desktop-Debug_2tests__autogen_2mocs__compilation_8cpp.html#a361a0de81cc97363a46c847a93084bdea5678df260dfcbe70c02dce6366c0a821',1,'need_more_than_nothing:&#160;mocs_compilation.cpp'],['../tests__autogen_2mocs__compilation_8cpp.html#a361a0de81cc97363a46c847a93084bdea5678df260dfcbe70c02dce6366c0a821',1,'need_more_than_nothing:&#160;mocs_compilation.cpp']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['example_0',['iOS / OSX Metal example',['../md_imgui_2examples_2example__apple__metal_2README.html',1,'']]],
-  ['examples_1',['EXAMPLES',['../md_imgui_2docs_2EXAMPLES.html',1,'']]]
+  ['license_0',['LICENSE',['../md_glfw_2LICENSE.html',1,'']]],
+  ['list_1',['Deprecated List',['../deprecated.html',1,'']]]
 ];

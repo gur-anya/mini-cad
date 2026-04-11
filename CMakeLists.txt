@@ -9,7 +9,6 @@ set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 COMPONENTS Widgets OpenGL OpenGLWidgets REQUIRED)
 find_package(OpenCASCADE REQUIRED)
-find_package(glfw3 REQUIRED)
 
 add_executable(mini_cad
     main.cpp
@@ -28,6 +27,8 @@ add_executable(mini_cad
     commands/CreateSphereCommand.cpp
     commands/CreateCylinderCommand.cpp
     history/CommandManager.cpp
+
+    Doxyfile
 )
 
 target_link_libraries(mini_cad PRIVATE

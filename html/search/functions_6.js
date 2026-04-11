@@ -1,31 +1,4 @@
 var searchData=
 [
-  ['find_0',['find',['../structImVector.html#a1fb6def3d26d7efeae0881e8dffb3f79',1,'ImVector::find(const T &amp;v) const'],['../structImVector.html#a406417c3efef769d4bee47df2188831a',1,'ImVector::find(const T &amp;v)']]],
-  ['find_5ferase_1',['find_erase',['../structImVector.html#a4e9214ecaa413240f76223500dbed912',1,'ImVector']]],
-  ['find_5ferase_5funsorted_2',['find_erase_unsorted',['../structImVector.html#a07f501e40783436616156682ec668327',1,'ImVector::find_erase_unsorted()'],['../structImTriangulatorNodeSpan.html#a83c4ca94f08b7eddde15fa6131a9e5d2',1,'ImTriangulatorNodeSpan::find_erase_unsorted()']]],
-  ['find_5findex_3',['find_index',['../structImVector.html#a374b32265297839b0cd8e2b4c827112a',1,'ImVector']]],
-  ['findbestwindowposforpopup_4',['FindBestWindowPosForPopup',['../namespaceImGui.html#a310ff87cbe678e2c632bf1f5577a7fbd',1,'ImGui']]],
-  ['findbestwindowposforpopupex_5',['FindBestWindowPosForPopupEx',['../namespaceImGui.html#ab4a820eead6cd418d7be66e142bf3478',1,'ImGui']]],
-  ['findblockingmodal_6',['FindBlockingModal',['../namespaceImGui.html#a196705a4195b41a57470ef6553cb440c',1,'ImGui']]],
-  ['findbottommostvisiblewindowwithinbeginstack_7',['FindBottomMostVisibleWindowWithinBeginStack',['../namespaceImGui.html#acbee71305d643afa7020759bc97feaf2',1,'ImGui']]],
-  ['findglyph_8',['FindGlyph',['../structImFontBaked.html#a785a4f3372cd8258f17ede065ee3cbad',1,'ImFontBaked']]],
-  ['findglyphnofallback_9',['FindGlyphNoFallback',['../structImFontBaked.html#a3669f0bfbacc00ac7d4982c07f40824b',1,'ImFontBaked']]],
-  ['findhoveredwindowex_10',['FindHoveredWindowEx',['../namespaceImGui.html#a3795ad81196cdb3fc364dc168108c398',1,'ImGui']]],
-  ['findorcreatecolumns_11',['FindOrCreateColumns',['../namespaceImGui.html#af04eb535c152ed14c87940b5d0661c7b',1,'ImGui']]],
-  ['findrenderedtextend_12',['FindRenderedTextEnd',['../namespaceImGui.html#a7671e1dbc803a31b06081b52a771d83f',1,'ImGui']]],
-  ['findsettingshandler_13',['FindSettingsHandler',['../namespaceImGui.html#ad9e15440c52f63aa96ef3b3938d566f8',1,'ImGui']]],
-  ['findwindowbyid_14',['FindWindowByID',['../namespaceImGui.html#a82204d8800dc3a072ddbcbd2aecc48ac',1,'ImGui']]],
-  ['findwindowbyname_15',['FindWindowByName',['../namespaceImGui.html#abca25f22c02e73d5eb2e9c72c4557813',1,'ImGui']]],
-  ['findwindowdisplayindex_16',['FindWindowDisplayIndex',['../namespaceImGui.html#acc8dfbe9f52370fe2b95f6c948ba113e',1,'ImGui']]],
-  ['findwindowsettingsbyid_17',['FindWindowSettingsByID',['../namespaceImGui.html#a186a7c51e5dc70e54843c9e9415707e2',1,'ImGui']]],
-  ['findwindowsettingsbywindow_18',['FindWindowSettingsByWindow',['../namespaceImGui.html#aa3791d9fe372fb96ae9672c88070385a',1,'ImGui']]],
-  ['fixupkeychord_19',['FixupKeyChord',['../namespaceImGui.html#a4fcbe32801dbb31c46d9f205574912e0',1,'ImGui']]],
-  ['flipnodelist_20',['FlipNodeList',['../structImTriangulator.html#a6ebecaeed8a6b7b972466b0f46605b1e',1,'ImTriangulator']]],
-  ['focusitem_21',['FocusItem',['../namespaceImGui.html#ad2df2e91500b9ebd279b825684750bb5',1,'ImGui']]],
-  ['focustopmostwindowunderone_22',['FocusTopMostWindowUnderOne',['../namespaceImGui.html#aa97e87e96c05eb3e91aa96fa68b13a2a',1,'ImGui']]],
-  ['focuswindow_23',['FocusWindow',['../namespaceImGui.html#a27aa6f2f3aa11778c6d023b1b223f262',1,'ImGui']]],
-  ['free_24',['Free',['../structExampleDescriptorHeapAllocator.html#ad3875a12920c1080ad2874549797c8aa',1,'ExampleDescriptorHeapAllocator']]],
-  ['fromindices_25',['FromIndices',['../structImGuiListClipperRange.html#ae04d9b8993b4fafcbf416fbaeed316b1',1,'ImGuiListClipperRange']]],
-  ['frompositions_26',['FromPositions',['../structImGuiListClipperRange.html#a3aa356015543dd8c9096e412390aacf0',1,'ImGuiListClipperRange']]],
-  ['front_27',['front',['../structImVector.html#a6f55b8b7351295c06eeb4f4f28af14ae',1,'ImVector::front() const'],['../structImVector.html#a5a21f508086337de2f6739701d22f721',1,'ImVector::front()']]]
+  ['name_0',['name',['../classCommand.html#a87b16bdc7005f072d4b352666d3c1489',1,'Command::name()'],['../classCreateBoxCommand.html#a98ed2b14248468470c963d37a178184c',1,'CreateBoxCommand::name()'],['../classCreateCylinderCommand.html#a19aaa2e2af3dc024fa5a0f32754bf495',1,'CreateCylinderCommand::name()'],['../classCreateSphereCommand.html#ab7f344fbdd94b7d25db0566460771c01',1,'CreateSphereCommand::name()'],['../classMockCommand.html#a25c2f361209f0097e07d9a2599faaaba',1,'MockCommand::name()']]]
 ];

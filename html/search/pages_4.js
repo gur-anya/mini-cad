@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['dear_20imgui_0',['Dear ImGui',['../md_imgui_2docs_2README.html',1,'']]],
-  ['deprecated_20list_1',['Deprecated List',['../deprecated.html',1,'']]]
+  ['glfw_20binaries_20for_2064_20bit_20windows_0',['GLFW binaries for 64-bit Windows',['../md_glfw_2README.html',1,'']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['linux_0',['linux',['../mini__cad__autogen_2moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'linux:&#160;moc_predefs.h'],['../tests__autogen_2moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'linux:&#160;moc_predefs.h']]]
+  ['sizeof_5fdptr_0',['sizeof_dptr',['../Desktop-Debug_2mini__cad__autogen_2moc__predefs_8h.html#addad5b57ed33bc5c79361574d9e03c06',1,'SIZEOF_DPTR:&#160;moc_predefs.h'],['../Desktop-Debug_2tests__autogen_2moc__predefs_8h.html#addad5b57ed33bc5c79361574d9e03c06',1,'SIZEOF_DPTR:&#160;moc_predefs.h'],['../mini__cad__autogen_2moc__predefs_8h.html#addad5b57ed33bc5c79361574d9e03c06',1,'SIZEOF_DPTR:&#160;moc_predefs.h'],['../tests__autogen_2moc__predefs_8h.html#addad5b57ed33bc5c79361574d9e03c06',1,'SIZEOF_DPTR:&#160;moc_predefs.h']]],
+  ['stringify_1',['stringify',['../CMakeFiles_23_828_83_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a43e1cad902b6477bec893cb6430bd6c8',1,'STRINGIFY:&#160;CMakeCXXCompilerId.cpp'],['../Desktop-Debug_2CMakeFiles_23_828_83_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a43e1cad902b6477bec893cb6430bd6c8',1,'STRINGIFY:&#160;CMakeCXXCompilerId.cpp']]],
+  ['stringify_5fhelper_2',['stringify_helper',['../CMakeFiles_23_828_83_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d',1,'STRINGIFY_HELPER:&#160;CMakeCXXCompilerId.cpp'],['../Desktop-Debug_2CMakeFiles_23_828_83_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d',1,'STRINGIFY_HELPER:&#160;CMakeCXXCompilerId.cpp']]]
 ];

@@ -148,55 +148,52 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga4306a564e9f60f4de8cc8f31731a3120" id="r_ga4306a564e9f60f4de8cc8f31731a3120"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga4306a564e9f60f4de8cc8f31731a3120">GLFWallocatefun</a>) (size_t <a class="el" href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a>, <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *user)</td></tr>
+<tr class="memitem:ga4306a564e9f60f4de8cc8f31731a3120" id="r_ga4306a564e9f60f4de8cc8f31731a3120"><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga4306a564e9f60f4de8cc8f31731a3120">GLFWallocatefun</a>) (size_t size, void *user)</td></tr>
 <tr class="memdesc:ga4306a564e9f60f4de8cc8f31731a3120"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function pointer type for memory allocation callbacks.  <br /></td></tr>
 <tr class="separator:ga4306a564e9f60f4de8cc8f31731a3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e88a829615d8efe8bec1746f7309c63" id="r_ga3e88a829615d8efe8bec1746f7309c63"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga3e88a829615d8efe8bec1746f7309c63">GLFWreallocatefun</a>) (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *block, size_t <a class="el" href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a>, <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *user)</td></tr>
+<tr class="memitem:ga3e88a829615d8efe8bec1746f7309c63" id="r_ga3e88a829615d8efe8bec1746f7309c63"><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga3e88a829615d8efe8bec1746f7309c63">GLFWreallocatefun</a>) (void *block, size_t size, void *user)</td></tr>
 <tr class="memdesc:ga3e88a829615d8efe8bec1746f7309c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function pointer type for memory reallocation callbacks.  <br /></td></tr>
 <tr class="separator:ga3e88a829615d8efe8bec1746f7309c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7181615eda94c4b07bd72bdcee39fa28" id="r_ga7181615eda94c4b07bd72bdcee39fa28"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga7181615eda94c4b07bd72bdcee39fa28">GLFWdeallocatefun</a>) (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *block, <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *user)</td></tr>
+<tr class="memitem:ga7181615eda94c4b07bd72bdcee39fa28" id="r_ga7181615eda94c4b07bd72bdcee39fa28"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga7181615eda94c4b07bd72bdcee39fa28">GLFWdeallocatefun</a>) (void *block, void *user)</td></tr>
 <tr class="memdesc:ga7181615eda94c4b07bd72bdcee39fa28"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function pointer type for memory deallocation callbacks.  <br /></td></tr>
 <tr class="separator:ga7181615eda94c4b07bd72bdcee39fa28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8184701785c096b3862a75cda1bf44a3" id="r_ga8184701785c096b3862a75cda1bf44a3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a>) (int error_code, const char *description)</td></tr>
+<tr class="memitem:ga8184701785c096b3862a75cda1bf44a3" id="r_ga8184701785c096b3862a75cda1bf44a3"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a>) (int error_code, const char *description)</td></tr>
 <tr class="memdesc:ga8184701785c096b3862a75cda1bf44a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function pointer type for error callbacks.  <br /></td></tr>
 <tr class="separator:ga8184701785c096b3862a75cda1bf44a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga145c57d7f2aeda0b704a5a4ba1d6104b" id="r_ga145c57d7f2aeda0b704a5a4ba1d6104b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structGLFWallocator.html">GLFWallocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga145c57d7f2aeda0b704a5a4ba1d6104b">GLFWallocator</a></td></tr>
 <tr class="memdesc:ga145c57d7f2aeda0b704a5a4ba1d6104b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom heap memory allocator.  <br /></td></tr>
 <tr class="separator:ga145c57d7f2aeda0b704a5a4ba1d6104b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa684e3f8b44b6a35000119d524d49e6d" id="r_gaa684e3f8b44b6a35000119d524d49e6d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gaa684e3f8b44b6a35000119d524d49e6d">GLFWerrorfun</a>) (int, const char *)</td></tr>
-<tr class="memdesc:gaa684e3f8b44b6a35000119d524d49e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function signature for error callbacks.  <br /></td></tr>
-<tr class="separator:gaa684e3f8b44b6a35000119d524d49e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab41771f0215a2e0afb4cf1cf98082d40" id="r_gab41771f0215a2e0afb4cf1cf98082d40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a> (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>)</td></tr>
+<tr class="memitem:gab41771f0215a2e0afb4cf1cf98082d40" id="r_gab41771f0215a2e0afb4cf1cf98082d40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a> (void)</td></tr>
 <tr class="memdesc:gab41771f0215a2e0afb4cf1cf98082d40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the GLFW library.  <br /></td></tr>
 <tr class="separator:gab41771f0215a2e0afb4cf1cf98082d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafd90e6fd4819ea9e22e5e739519a6504" id="r_gafd90e6fd4819ea9e22e5e739519a6504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a> (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>)</td></tr>
+<tr class="memitem:gafd90e6fd4819ea9e22e5e739519a6504" id="r_gafd90e6fd4819ea9e22e5e739519a6504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a> (void)</td></tr>
 <tr class="memdesc:gafd90e6fd4819ea9e22e5e739519a6504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the GLFW library.  <br /></td></tr>
 <tr class="separator:gafd90e6fd4819ea9e22e5e739519a6504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac85e41aab1c2bd6fc740f4377d9e7e9f" id="r_gac85e41aab1c2bd6fc740f4377d9e7e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gac85e41aab1c2bd6fc740f4377d9e7e9f">glfwInitHint</a> (int hint, int <a class="el" href="imgui__impl__opengl3__loader_8h.html#a1b2be7bfa84f129a2690a62f3ad82d62">value</a>)</td></tr>
+<tr class="memitem:gac85e41aab1c2bd6fc740f4377d9e7e9f" id="r_gac85e41aab1c2bd6fc740f4377d9e7e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gac85e41aab1c2bd6fc740f4377d9e7e9f">glfwInitHint</a> (int hint, int value)</td></tr>
 <tr class="memdesc:gac85e41aab1c2bd6fc740f4377d9e7e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the specified init hint to the desired value.  <br /></td></tr>
 <tr class="separator:gac85e41aab1c2bd6fc740f4377d9e7e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f4c8556a21d9e774a0ba0332da1748e" id="r_ga0f4c8556a21d9e774a0ba0332da1748e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga0f4c8556a21d9e774a0ba0332da1748e">glfwInitAllocator</a> (const <a class="el" href="structGLFWallocator.html">GLFWallocator</a> *allocator)</td></tr>
+<tr class="memitem:ga0f4c8556a21d9e774a0ba0332da1748e" id="r_ga0f4c8556a21d9e774a0ba0332da1748e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga0f4c8556a21d9e774a0ba0332da1748e">glfwInitAllocator</a> (const <a class="el" href="structGLFWallocator.html">GLFWallocator</a> *allocator)</td></tr>
 <tr class="memdesc:ga0f4c8556a21d9e774a0ba0332da1748e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the init allocator to the desired value.  <br /></td></tr>
 <tr class="separator:ga0f4c8556a21d9e774a0ba0332da1748e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2402c7824ac0194c13722790ff9559ff" id="r_ga2402c7824ac0194c13722790ff9559ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga2402c7824ac0194c13722790ff9559ff">glfwGetVersion</a> (int *major, int *minor, int *rev)</td></tr>
+<tr class="memitem:ga2402c7824ac0194c13722790ff9559ff" id="r_ga2402c7824ac0194c13722790ff9559ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga2402c7824ac0194c13722790ff9559ff">glfwGetVersion</a> (int *major, int *minor, int *rev)</td></tr>
 <tr class="memdesc:ga2402c7824ac0194c13722790ff9559ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the version of the GLFW library.  <br /></td></tr>
 <tr class="separator:ga2402c7824ac0194c13722790ff9559ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae5952184a0db36e24d1de7805b8b0945" id="r_gae5952184a0db36e24d1de7805b8b0945"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gae5952184a0db36e24d1de7805b8b0945">glfwGetVersionString</a> (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>)</td></tr>
+<tr class="memitem:gae5952184a0db36e24d1de7805b8b0945" id="r_gae5952184a0db36e24d1de7805b8b0945"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gae5952184a0db36e24d1de7805b8b0945">glfwGetVersionString</a> (void)</td></tr>
 <tr class="memdesc:gae5952184a0db36e24d1de7805b8b0945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string describing the compile-time configuration.  <br /></td></tr>
 <tr class="separator:gae5952184a0db36e24d1de7805b8b0945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee7bac4c7e1b2769207747c1b5ae2f9e" id="r_gaee7bac4c7e1b2769207747c1b5ae2f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gaee7bac4c7e1b2769207747c1b5ae2f9e">glfwGetError</a> (const char **description)</td></tr>
+<tr class="memitem:gaee7bac4c7e1b2769207747c1b5ae2f9e" id="r_gaee7bac4c7e1b2769207747c1b5ae2f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gaee7bac4c7e1b2769207747c1b5ae2f9e">glfwGetError</a> (const char **description)</td></tr>
 <tr class="memdesc:gaee7bac4c7e1b2769207747c1b5ae2f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns and clears the last error for the calling thread.  <br /></td></tr>
 <tr class="separator:gaee7bac4c7e1b2769207747c1b5ae2f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga746e2757d069eaea423349aca6ae097a" id="r_ga746e2757d069eaea423349aca6ae097a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga746e2757d069eaea423349aca6ae097a">glfwSetErrorCallback</a> (<a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a> callback)</td></tr>
+<tr class="memitem:ga746e2757d069eaea423349aca6ae097a" id="r_ga746e2757d069eaea423349aca6ae097a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga746e2757d069eaea423349aca6ae097a">glfwSetErrorCallback</a> (<a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a> callback)</td></tr>
 <tr class="memdesc:ga746e2757d069eaea423349aca6ae097a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the error callback.  <br /></td></tr>
 <tr class="separator:ga746e2757d069eaea423349aca6ae097a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac2d1735162a981fcaa8fb386740aa5ce" id="r_gac2d1735162a981fcaa8fb386740aa5ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gac2d1735162a981fcaa8fb386740aa5ce">glfwGetPlatform</a> (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>)</td></tr>
+<tr class="memitem:gac2d1735162a981fcaa8fb386740aa5ce" id="r_gac2d1735162a981fcaa8fb386740aa5ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gac2d1735162a981fcaa8fb386740aa5ce">glfwGetPlatform</a> (void)</td></tr>
 <tr class="memdesc:gac2d1735162a981fcaa8fb386740aa5ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently selected platform.  <br /></td></tr>
 <tr class="separator:gac2d1735162a981fcaa8fb386740aa5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b57ba0946498e8621f4d969bbcecfba" id="r_ga7b57ba0946498e8621f4d969bbcecfba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga7b57ba0946498e8621f4d969bbcecfba">glfwPlatformSupported</a> (int platform)</td></tr>
+<tr class="memitem:ga7b57ba0946498e8621f4d969bbcecfba" id="r_ga7b57ba0946498e8621f4d969bbcecfba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga7b57ba0946498e8621f4d969bbcecfba">glfwPlatformSupported</a> (int platform)</td></tr>
 <tr class="memdesc:ga7b57ba0946498e8621f4d969bbcecfba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the library includes support for the specified platform.  <br /></td></tr>
 <tr class="separator:ga7b57ba0946498e8621f4d969bbcecfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -209,15 +206,6 @@ Functions</h2></td></tr>
 <tr class="separator:gaf80d40f0aea7088ff337606e9c48f7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab72ae2e2035d9ea461abc3495eac0502" id="r_gab72ae2e2035d9ea461abc3495eac0502"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gab72ae2e2035d9ea461abc3495eac0502">GLFW_VERSION_REVISION</a>&#160;&#160;&#160;0</td></tr>
 <tr class="memdesc:gab72ae2e2035d9ea461abc3495eac0502"><td class="mdescLeft">&#160;</td><td class="mdescRight">The revision number of the GLFW header.  <br /></td></tr>
-<tr class="separator:gab72ae2e2035d9ea461abc3495eac0502"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6337d9ea43b22fc529b2bba066b4a576" id="r_ga6337d9ea43b22fc529b2bba066b4a576"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#ga6337d9ea43b22fc529b2bba066b4a576">GLFW_VERSION_MAJOR</a>&#160;&#160;&#160;3</td></tr>
-<tr class="memdesc:ga6337d9ea43b22fc529b2bba066b4a576"><td class="mdescLeft">&#160;</td><td class="mdescRight">The major version number of the GLFW library.  <br /></td></tr>
-<tr class="separator:ga6337d9ea43b22fc529b2bba066b4a576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf80d40f0aea7088ff337606e9c48f7a3" id="r_gaf80d40f0aea7088ff337606e9c48f7a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gaf80d40f0aea7088ff337606e9c48f7a3">GLFW_VERSION_MINOR</a>&#160;&#160;&#160;2</td></tr>
-<tr class="memdesc:gaf80d40f0aea7088ff337606e9c48f7a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minor version number of the GLFW library.  <br /></td></tr>
-<tr class="separator:gaf80d40f0aea7088ff337606e9c48f7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab72ae2e2035d9ea461abc3495eac0502" id="r_gab72ae2e2035d9ea461abc3495eac0502"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__init.html#gab72ae2e2035d9ea461abc3495eac0502">GLFW_VERSION_REVISION</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:gab72ae2e2035d9ea461abc3495eac0502"><td class="mdescLeft">&#160;</td><td class="mdescRight">The revision number of the GLFW library.  <br /></td></tr>
 <tr class="separator:gab72ae2e2035d9ea461abc3495eac0502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -431,7 +419,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga6337d9ea43b22fc529b2bba066b4a576" name="ga6337d9ea43b22fc529b2bba066b4a576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6337d9ea43b22fc529b2bba066b4a576">&#9670;&#160;</a></span>GLFW_VERSION_MAJOR <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6337d9ea43b22fc529b2bba066b4a576">&#9670;&#160;</a></span>GLFW_VERSION_MAJOR</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,31 +431,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The major version number of the GLFW header. </p>
-<p>The major version number of the GLFW library.</p>
-<p>The major version number of the GLFW header. This is incremented when the API is changed in non-compatible ways.</p>
-<p>This is incremented when the API is changed in non-compatible ways. </p>
-
-</div>
-</div>
-<a id="ga6337d9ea43b22fc529b2bba066b4a576" name="ga6337d9ea43b22fc529b2bba066b4a576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6337d9ea43b22fc529b2bba066b4a576">&#9670;&#160;</a></span>GLFW_VERSION_MAJOR <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GLFW_VERSION_MAJOR&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The major version number of the GLFW library. </p>
-<p>This is incremented when the API is changed in non-compatible ways. </p>
+<p>The major version number of the GLFW header. This is incremented when the API is changed in non-compatible ways. </p>
 
 </div>
 </div>
 <a id="gaf80d40f0aea7088ff337606e9c48f7a3" name="gaf80d40f0aea7088ff337606e9c48f7a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf80d40f0aea7088ff337606e9c48f7a3">&#9670;&#160;</a></span>GLFW_VERSION_MINOR <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf80d40f0aea7088ff337606e9c48f7a3">&#9670;&#160;</a></span>GLFW_VERSION_MINOR</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -479,31 +448,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The minor version number of the GLFW header. </p>
-<p>The minor version number of the GLFW library.</p>
-<p>The minor version number of the GLFW header. This is incremented when features are added to the API but it remains backward-compatible.</p>
-<p>This is incremented when features are added to the API but it remains backward-compatible. </p>
-
-</div>
-</div>
-<a id="gaf80d40f0aea7088ff337606e9c48f7a3" name="gaf80d40f0aea7088ff337606e9c48f7a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf80d40f0aea7088ff337606e9c48f7a3">&#9670;&#160;</a></span>GLFW_VERSION_MINOR <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GLFW_VERSION_MINOR&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The minor version number of the GLFW library. </p>
-<p>This is incremented when features are added to the API but it remains backward-compatible. </p>
+<p>The minor version number of the GLFW header. This is incremented when features are added to the API but it remains backward-compatible. </p>
 
 </div>
 </div>
 <a id="gab72ae2e2035d9ea461abc3495eac0502" name="gab72ae2e2035d9ea461abc3495eac0502"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab72ae2e2035d9ea461abc3495eac0502">&#9670;&#160;</a></span>GLFW_VERSION_REVISION <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab72ae2e2035d9ea461abc3495eac0502">&#9670;&#160;</a></span>GLFW_VERSION_REVISION</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -515,26 +465,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The revision number of the GLFW header. </p>
-<p>The revision number of the GLFW library.</p>
-<p>The revision number of the GLFW header. This is incremented when a bug fix release is made that does not contain any API changes.</p>
-<p>This is incremented when a bug fix release is made that does not contain any API changes. </p>
-
-</div>
-</div>
-<a id="gab72ae2e2035d9ea461abc3495eac0502" name="gab72ae2e2035d9ea461abc3495eac0502"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab72ae2e2035d9ea461abc3495eac0502">&#9670;&#160;</a></span>GLFW_VERSION_REVISION <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GLFW_VERSION_REVISION&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The revision number of the GLFW library. </p>
-<p>This is incremented when a bug fix release is made that does not contain any API changes. </p>
+<p>The revision number of the GLFW header. This is incremented when a bug fix release is made that does not contain any API changes. </p>
 
 </div>
 </div>
@@ -580,14 +511,13 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *(* GLFWallocatefun) (size_t <a class="el" href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a>, <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *user)</td>
+          <td class="memname">typedef void *(* GLFWallocatefun) (size_t size, void *user)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The function pointer type for memory allocation callbacks. </p>
-<p>This is the function pointer type for memory allocation callbacks. A memory allocation callback function has the following signature: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span>* function_name(<span class="keywordtype">size_t</span> <a class="code hl_typedef" href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a>, <span class="keywordtype">void</span>* user)</div>
-<div class="ttc" id="aimgui__impl__opengl3__loader_8h_html_a3d1e3edfcf61ca2d831883e1afbad89e"><div class="ttname"><a href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a></div><div class="ttdeci">GLsizeiptr size</div><div class="ttdef"><b>Definition</b> imgui_impl_opengl3_loader.h:277</div></div>
+<p>This is the function pointer type for memory allocation callbacks. A memory allocation callback function has the following signature: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span>* function_name(<span class="keywordtype">size_t</span> size, <span class="keywordtype">void</span>* user)</div>
 </div><!-- fragment --><p>This function must return either a memory block at least <code>size</code> bytes long, or <code>NULL</code> if allocation failed. Note that not all parts of GLFW handle allocation failures gracefully yet.</p>
 <p>This function must support being called during <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a> but before the library is flagged as initialized, as well as during <a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a> after the library is no longer flagged as initialized.</p>
 <p>Any memory allocated via this function will be deallocated via the same allocator during library termination or earlier.</p>
@@ -641,7 +571,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>(* GLFWdeallocatefun) (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *block, <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *user)</td>
+          <td class="memname">typedef void(* GLFWdeallocatefun) (void *block, void *user)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -671,13 +601,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga8184701785c096b3862a75cda1bf44a3" name="ga8184701785c096b3862a75cda1bf44a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8184701785c096b3862a75cda1bf44a3">&#9670;&#160;</a></span>GLFWerrorfun <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8184701785c096b3862a75cda1bf44a3">&#9670;&#160;</a></span>GLFWerrorfun</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>(* GLFWerrorfun) (int error_code, const char *description)</td>
+          <td class="memname">typedef void(* GLFWerrorfun) (int error_code, const char *description)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -699,34 +629,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaa684e3f8b44b6a35000119d524d49e6d" name="gaa684e3f8b44b6a35000119d524d49e6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa684e3f8b44b6a35000119d524d49e6d">&#9670;&#160;</a></span>GLFWerrorfun <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>(* GLFWerrorfun) (int, const char *)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The function signature for error callbacks. </p>
-<p>This is the function signature for error callback functions.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">error</td><td>An <a class="el" href="group__errors.html">error code</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">description</td><td>A UTF-8 encoded string describing the error.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section see"><dt>See also</dt><dd>error_handling </dd>
-<dd>
-<a class="el" href="group__init.html#ga746e2757d069eaea423349aca6ae097a" title="Sets the error callback.">glfwSetErrorCallback</a></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>Added in version 3.0. </dd></dl>
-
-</div>
-</div>
 <a id="ga3e88a829615d8efe8bec1746f7309c63" name="ga3e88a829615d8efe8bec1746f7309c63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3e88a829615d8efe8bec1746f7309c63">&#9670;&#160;</a></span>GLFWreallocatefun</h2>
 
@@ -734,13 +636,13 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *(* GLFWreallocatefun) (<a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *block, size_t <a class="el" href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a>, <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> *user)</td>
+          <td class="memname">typedef void *(* GLFWreallocatefun) (void *block, size_t size, void *user)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The function pointer type for memory reallocation callbacks. </p>
-<p>This is the function pointer type for memory reallocation callbacks. A memory reallocation callback function has the following signature: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span>* function_name(<span class="keywordtype">void</span>* block, <span class="keywordtype">size_t</span> <a class="code hl_typedef" href="imgui__impl__opengl3__loader_8h.html#a3d1e3edfcf61ca2d831883e1afbad89e">size</a>, <span class="keywordtype">void</span>* user)</div>
+<p>This is the function pointer type for memory reallocation callbacks. A memory reallocation callback function has the following signature: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span>* function_name(<span class="keywordtype">void</span>* block, <span class="keywordtype">size_t</span> size, <span class="keywordtype">void</span>* user)</div>
 </div><!-- fragment --><p>This function must return a memory block at least <code>size</code> bytes long, or <code>NULL</code> if allocation failed. Note that not all parts of GLFW handle allocation failures gracefully yet.</p>
 <p>This function must support being called during <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a> but before the library is flagged as initialized, as well as during <a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a> after the library is no longer flagged as initialized.</p>
 <p>Any memory allocated via this function will be deallocated via the same allocator during library termination or earlier.</p>
@@ -775,7 +677,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwGetError </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwGetError </td>
           <td>(</td>
           <td class="paramtype">const char **&#160;</td>
           <td class="paramname"><em>description</em></td><td>)</td>
@@ -811,9 +713,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwGetPlatform </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwGetPlatform </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -839,7 +741,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> glfwGetVersion </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void glfwGetVersion </td>
           <td>(</td>
           <td class="paramtype">int *&#160;</td>
           <td class="paramname"><em>major</em>, </td>
@@ -881,23 +783,6 @@ Functions</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd>intro_version </dd>
 <dd>
 <a class="el" href="group__init.html#gae5952184a0db36e24d1de7805b8b0945">glfwGetVersionString</a></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>Added in version 1.0.</dd></dl>
-<p>This function retrieves the major, minor and revision numbers of the GLFW library. It is intended for when you are using GLFW as a shared library and want to ensure that you are using the minimum required version.</p>
-<p>Any or all of the version arguments may be <code>NULL</code>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">major</td><td>Where to store the major version number, or <code>NULL</code>. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">minor</td><td>Where to store the minor version number, or <code>NULL</code>. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">rev</td><td>Where to store the revision number, or <code>NULL</code>.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>@errors None.</p>
-<dl class="section remark"><dt>Remarks</dt><dd>This function may be called before <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a>.</dd></dl>
-<p>@thread_safety This function may be called from any thread.</p>
-<dl class="section see"><dt>See also</dt><dd>intro_version </dd>
-<dd>
-<a class="el" href="group__init.html#gae5952184a0db36e24d1de7805b8b0945" title="Returns a string describing the compile-time configuration.">glfwGetVersionString</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>Added in version 1.0. </dd></dl>
 
 </div>
@@ -909,9 +794,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> const char * glfwGetVersionString </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> const char * glfwGetVersionString </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -930,17 +815,6 @@ Functions</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd>intro_version </dd>
 <dd>
 <a class="el" href="group__init.html#ga2402c7824ac0194c13722790ff9559ff">glfwGetVersion</a></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>Added in version 3.0.</dd></dl>
-<p>This function returns the compile-time generated version string of the GLFW library binary. It describes the version, platform, compiler and any platform-specific compile-time options. It should not be confused with the OpenGL or OpenGL ES version string, queried with <code>glGetString</code>.</p>
-<p><b>Do not use the version string</b> to parse the GLFW library version. The <a class="el" href="group__init.html#ga2402c7824ac0194c13722790ff9559ff">glfwGetVersion</a> function provides the version of the running library binary in numerical format.</p>
-<dl class="section return"><dt>Returns</dt><dd>The ASCII encoded GLFW version string.</dd></dl>
-<p>@errors None.</p>
-<dl class="section remark"><dt>Remarks</dt><dd>This function may be called before <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a>.</dd></dl>
-<p>@pointer_lifetime The returned string is static and compile-time generated.</p>
-<p>@thread_safety This function may be called from any thread.</p>
-<dl class="section see"><dt>See also</dt><dd>intro_version </dd>
-<dd>
-<a class="el" href="group__init.html#ga2402c7824ac0194c13722790ff9559ff" title="Retrieves the version of the GLFW library.">glfwGetVersion</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>Added in version 3.0. </dd></dl>
 
 </div>
@@ -952,9 +826,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwInit </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwInit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -983,17 +857,6 @@ Functions</h2></td></tr>
 <a class="el" href="group__init.html#ga0f4c8556a21d9e774a0ba0332da1748e">glfwInitAllocator</a> </dd>
 <dd>
 <a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>Added in version 1.0.</dd></dl>
-<p>This function initializes the GLFW library. Before most GLFW functions can be used, GLFW must be initialized, and before an application terminates GLFW should be terminated in order to free any resources allocated during or after initialization.</p>
-<p>If this function fails, it calls <a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a> before returning. If it succeeds, you should call <a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504">glfwTerminate</a> before the application exits.</p>
-<p>Additional calls to this function after successful initialization but before termination will return <code>GLFW_TRUE</code> immediately.</p>
-<dl class="section return"><dt>Returns</dt><dd><code>GLFW_TRUE</code> if successful, or <code>GLFW_FALSE</code> if an error occurred.</dd></dl>
-<p>@errors Possible errors include <a class="el" href="group__errors.html#gad44162d78100ea5e87cdd38426b8c7a1">GLFW_PLATFORM_ERROR</a>.</p>
-<dl class="section remark"><dt>Remarks</dt><dd>@osx This function will change the current directory of the application to the <code>Contents/Resources</code> subdirectory of the application's bundle, if present. This can be disabled with a compile-time option.</dd></dl>
-<p>@thread_safety This function must only be called from the main thread.</p>
-<dl class="section see"><dt>See also</dt><dd>intro_init </dd>
-<dd>
-<a class="el" href="group__init.html#gafd90e6fd4819ea9e22e5e739519a6504" title="Terminates the GLFW library.">glfwTerminate</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>Added in version 1.0. </dd></dl>
 
 </div>
@@ -1005,7 +868,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> glfwInitAllocator </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void glfwInitAllocator </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structGLFWallocator.html">GLFWallocator</a> *&#160;</td>
           <td class="paramname"><em>allocator</em></td><td>)</td>
@@ -1041,7 +904,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> glfwInitHint </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void glfwInitHint </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>hint</em>, </td>
@@ -1088,7 +951,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwPlatformSupported </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> int glfwPlatformSupported </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>platform</em></td><td>)</td>
@@ -1123,7 +986,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a> glfwSetErrorCallback </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a> glfwSetErrorCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__init.html#ga8184701785c096b3862a75cda1bf44a3">GLFWerrorfun</a>&#160;</td>
           <td class="paramname"><em>callback</em></td><td>)</td>
@@ -1153,22 +1016,6 @@ Functions</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd>error_handling </dd>
 <dd>
 <a class="el" href="group__init.html#gaee7bac4c7e1b2769207747c1b5ae2f9e">glfwGetError</a></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>Added in version 3.0.</dd></dl>
-<p>This function sets the error callback, which is called with an error code and a human-readable description each time a GLFW error occurs.</p>
-<p>The error callback is called on the thread where the error occurred. If you are using GLFW from multiple threads, your error callback needs to be written accordingly.</p>
-<p>Because the description string may have been generated specifically for that error, it is not guaranteed to be valid after the callback has returned. If you wish to use it after the callback returns, you need to make a copy.</p>
-<p>Once set, the error callback remains set even after the library has been terminated.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">cbfun</td><td>The new callback, or <code>NULL</code> to remove the currently set callback. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The previously set callback, or <code>NULL</code> if no callback was set.</dd></dl>
-<p>@errors None.</p>
-<dl class="section remark"><dt>Remarks</dt><dd>This function may be called before <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a>.</dd></dl>
-<p>@thread_safety This function must only be called from the main thread.</p>
-<dl class="section see"><dt>See also</dt><dd>error_handling</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>Added in version 3.0. </dd></dl>
 
 </div>
@@ -1180,9 +1027,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="glfw_2include_2GLFW_2glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> <a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a> glfwTerminate </td>
+          <td class="memname"><a class="el" href="glfw3_8h.html#a56da5036b2cc259351ae22fd6439bb47">GLFWAPI</a> void glfwTerminate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="imgui__impl__opengl3__loader_8h.html#ac668e7cffd9e2e9cfee428b9b2f34fa7">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1201,17 +1048,6 @@ Functions</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd>intro_init </dd>
 <dd>
 <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>Added in version 1.0.</dd></dl>
-<p>This function destroys all remaining windows and cursors, restores any modified gamma ramps and frees any other allocated resources. Once this function is called, you must again call <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a> successfully before you will be able to use most GLFW functions.</p>
-<p>If GLFW has been successfully initialized, this function should be called before the application exits. If initialization fails, there is no need to call this function, as it is called by <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a> before it returns failure.</p>
-<p>@errors Possible errors include <a class="el" href="group__errors.html#gad44162d78100ea5e87cdd38426b8c7a1">GLFW_PLATFORM_ERROR</a>.</p>
-<dl class="section remark"><dt>Remarks</dt><dd>This function may be called before <a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40">glfwInit</a>.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>The contexts of any remaining windows must not be current on any other thread when this function is called.</dd></dl>
-<p>@reentrancy This function must not be called from a callback.</p>
-<p>@thread_safety This function must only be called from the main thread.</p>
-<dl class="section see"><dt>See also</dt><dd>intro_init </dd>
-<dd>
-<a class="el" href="group__init.html#gab41771f0215a2e0afb4cf1cf98082d40" title="Initializes the GLFW library.">glfwInit</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>Added in version 1.0. </dd></dl>
 
 </div>
