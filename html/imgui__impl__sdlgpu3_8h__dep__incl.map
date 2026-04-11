@@ -1,7 +1,0 @@
-<map id="imgui/backends/imgui_impl_sdlgpu3.h" name="imgui/backends/imgui_impl_sdlgpu3.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="105,5,271,45"/>
-<area shape="rect" id="Node000002" href="$imgui__impl__sdlgpu3_8cpp.html" title=" " alt="" coords="5,93,171,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,56,112,95,108,91,154,52"/>
-<area shape="rect" id="Node000003" href="$imgui_2examples_2example__sdl3__sdlgpu3_2main_8cpp.html" title=" " alt="" coords="195,93,383,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,52,269,91,265,95,219,56"/>
-</map>

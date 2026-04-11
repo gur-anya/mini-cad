@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['64_20bit_20windows_0',['GLFW binaries for 64-bit Windows',['../md_glfw_2README.html',1,'']]]
-];

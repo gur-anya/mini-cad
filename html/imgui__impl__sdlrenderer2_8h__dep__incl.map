@@ -1,7 +1,0 @@
-<map id="imgui/backends/imgui_impl_sdlrenderer2.h" name="imgui/backends/imgui_impl_sdlrenderer2.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="118,5,283,45"/>
-<area shape="rect" id="Node000002" href="$imgui__impl__sdlrenderer2_8cpp.html" title=" " alt="" coords="5,93,180,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,56,118,95,115,91,164,52"/>
-<area shape="rect" id="Node000003" href="$imgui_2examples_2example__sdl2__sdlrenderer2_2main_8cpp.html" title=" " alt="" coords="204,93,413,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,52,286,91,283,95,234,56"/>
-</map>

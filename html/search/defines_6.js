@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['linux_0',['linux',['../Desktop-Debug_2mini__cad__autogen_2moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'linux:&#160;moc_predefs.h'],['../Desktop-Debug_2tests__autogen_2moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'linux:&#160;moc_predefs.h'],['../mini__cad__autogen_2moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'linux:&#160;moc_predefs.h'],['../tests__autogen_2moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'linux:&#160;moc_predefs.h']]]
-];
