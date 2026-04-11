@@ -11,28 +11,23 @@ find_package(Qt6 COMPONENTS Widgets OpenGL OpenGLWidgets REQUIRED)
 find_package(OpenCASCADE REQUIRED)
 find_package(glfw3 REQUIRED)
 
-set(IMGUI_DIR "${CMAKE_CURRENT_SOURCE_DIR}/imgui")
-
-set(IMGUI_SOURCES
-    ${IMGUI_DIR}/imgui.cpp
-    ${IMGUI_DIR}/imgui_draw.cpp
-    ${IMGUI_DIR}/imgui_tables.cpp
-    ${IMGUI_DIR}/imgui_widgets.cpp
-    ${IMGUI_DIR}/backends/imgui_impl_glfw.cpp
-    ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
-)
-
 add_executable(mini_cad
     main.cpp
     mainwindow.cpp
     occtviewer.cpp
 
+    mainwindow.h
+    occtviewer.h
+
     commands/CreateBoxCommand.cpp
+    commands/Command.h
+    commands/CreateBoxCommand.h
+    commands/CreateCylinderCommand.h
+    commands/CreateSphereCommand.h
+    history/CommandManager.h
     commands/CreateSphereCommand.cpp
     commands/CreateCylinderCommand.cpp
     history/CommandManager.cpp
-
-    ${IMGUI_SOURCES}
 )
 
 target_link_libraries(mini_cad PRIVATE
@@ -55,8 +50,6 @@ target_link_libraries(mini_cad PRIVATE
 
 target_include_directories(mini_cad PRIVATE
     ${OpenCASCADE_INCLUDE_DIR}
-    ${IMGUI_DIR}
-    ${IMGUI_DIR}/backends
 )
 
 enable_testing()

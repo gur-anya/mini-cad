@@ -1,9 +1,9 @@
 #include "mainwindow.h"
 #include "occtviewer.h"
 
-#include "../commands/CreateBoxCommand.h"
-#include "../commands/CreateSphereCommand.h"
-#include "../commands/CreateCylinderCommand.h"
+#include "commands/CreateBoxCommand.h"
+#include "commands/CreateSphereCommand.h"
+#include "commands/CreateCylinderCommand.h"
 
 #include <QPushButton>
 #include <QVBoxLayout>

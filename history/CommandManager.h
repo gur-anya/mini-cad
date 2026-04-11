@@ -17,7 +17,7 @@ class CommandManager
 public:
     /**
      * @brief Выполняет команду.
-     * @param cmd команда
+     * @param команда
      * @return строка для истории
      */
     std::string execute(std::shared_ptr<Command> cmd);

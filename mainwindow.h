@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QMainWindow>
-#include "../history/CommandManager.h"
+#include "history/CommandManager.h"
 
 class OcctViewer;
 
